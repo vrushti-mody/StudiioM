@@ -14,8 +14,8 @@
     const container = document.querySelector('[data-map-container]');
     if (!container || container.querySelector('iframe')) return;
     const frame = document.createElement('iframe');
-    frame.title = 'Map showing Fuss Pot near Radha Sadan, 18th Road, Khar West, Mumbai';
-    frame.src = 'https://maps.google.com/maps?q=Fuss%20Pot%2C%20Radha%20Sadan%2C%2018th%20Road%2C%20Khar%20West%2C%20Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed';
+    frame.title = 'Map showing Studiio M at Gala Altezza, Kings Circle, Mumbai';
+    frame.src = 'https://maps.google.com/maps?q=Studiio%20M%2C%20Shop%20no.%202%2C%20Gala%20Altezza%2C%20Shanmukhanand%20Hall%2C%20Kings%20Circle%2C%20Mumbai%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed';
     frame.loading = 'lazy';
     frame.referrerPolicy = 'no-referrer-when-downgrade';
     container.replaceChildren(frame);
@@ -25,7 +25,7 @@
   const banner = document.querySelector('[data-consent-banner]');
   const settings = document.querySelector('[data-consent-settings]');
   const analyticsChoice = document.querySelector('[data-analytics-choice]');
-  const storageKey = 'fuss-pot-privacy-choice-v1';
+  const storageKey = 'studiio-m-privacy-choice-v1';
   const getChoice = () => {
     try { return JSON.parse(localStorage.getItem(storageKey) || 'null'); } catch { return null; }
   };

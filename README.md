@@ -1,6 +1,6 @@
-# FussPot
+# Studiio M
 
-An informational website for Fuss Pot, a fashion and home décor boutique in Khar West, Mumbai.
+An informational website for Studiio M by Gaurav Vig, a designer-wear boutique at Kings Circle, Mumbai.
 
 ## Run locally
 
